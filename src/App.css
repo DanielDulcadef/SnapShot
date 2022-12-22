@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+   
 }
 
 .App-logo {
@@ -35,4 +38,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*{
+  font-family: 'Josefin Sans';
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
+}
+h1{
+  font-family: 'Lobster';font-size: 50px;
+  
+}
+.input {
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  /* line-height: 2.8rem; */
+  width: 500px;
+  border-radius: 10px;
+  background-color: white;
+  
+}
+
+.btn{
+  background-color: black ;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 70px;
+  height: 25px;
+  
+}
+#but{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5cm;
+  padding: 0.5cm;
+  
+}
+
+.label{
+  font-size: 2rem;
+  
+  
+}
+
+.button{
+  background-color: black ;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 70px;
+  height: 25px;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  gap: 0.2cm;
+  
+}
+
+.images{
+  width: 250px;
+  height: 250px;
+  padding: 0.3cm;
 }

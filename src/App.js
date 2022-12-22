@@ -4,6 +4,7 @@ import Buttons from './components/Buttons';
 import SearchPhotos from './components/SearchPhotos';
 import { apiKey } from './api/config';
 import { useState, useEffect } from 'react';
+import { Tittle } from './components/Tittle';
 
 function App() {
   const [image, setImage] = useState([]);
@@ -26,11 +27,11 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
-        <h1 className='title'>SnapShot</h1>
-        <Buttons buttons={setImp} />
+        <Tittle />
         <SearchPhotos search1={setImp} />
+        <Buttons buttons={setImp} />
       </div>
-      <div><h2> {imp} Picture</h2></div>
+      <div><h2> {imp} Pictures</h2></div>
       <div>
         {imgcard}
       </div>

@@ -10,14 +10,11 @@ function SearchPhotos({ search1 }) {
   }
   return (
     <form className='form'>
-      <label className="label" htmlFor="query">
-        {" "}
-        📷
+      <label className="label" >
       </label>
       <input
         onKeyDown={imput}
         type="text"
-        name="query"
         className="input"
         placeholder={"Search..."}
       />
